@@ -2,7 +2,8 @@
   margin:0px;
   padding:0px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Public Sans', sans-serif;
+  font-weight:100;
 }
 
 
@@ -93,22 +94,6 @@ li{
   text-align:center;
 }
 
-.skill-bar-container{
-  display:flex;
-  flex-direction: column;
-  gap:10px;
-  line-height: 5;
+/*ADD SKILL BARS */
 
-}
-
-.header__skills{
-  font-family: 'Public Sans', sans-serif;
-  font-weight: 100;
-  margin-left:20%;
-  font-size: 30px;
-  letter-spacing: 1px;
-}
-.skills_html{
-  font-family: 'Public Sans', sans-serif;
-  font-weight: 100;
-}
+/* Container for skill bars */

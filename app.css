@@ -4,39 +4,111 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-  .nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color:#1f2937;
-    }
-  
-  .logo{
-    color:#F9FAF8;
-    text-transform: uppercase;
-    letter-spacing: normal;
-    font-size:24px;
-  }
-  
-  .nav_links{
+
+
+
+.nav{
   display: flex;
-  flex: 0.5;
   justify-content: space-around;
-  width:15%;
-  }
+  min-height: 200px;
+  width:100%;
+  background-color:#FFFFFF;
+  border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
   
-  .nav_links a{
-    color: #F9FAF8;
-    font-size: 14;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-  }
+.logo{
+  text-transform: uppercase;
+  letter-spacing: normal;
+  margin-left:25px;
+  margin-top:100px;
+  font-size:24px;
+  font-family:'Public Sans ', sans-serif;
+  font-weight:100 
   
-  ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
   }
+
+.nav_list{
+  display:flex;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight:100;
+  margin:10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 16px;
+  
+}
+
+a:link{
+  color:black;
+  background-color:transparent;
+  text-decoration: none;
+
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+li{
+  margin-top:100px;
+  margin-left:50px;
+  margin-right:50px;
+  text-decoration: none;
+}
+
+.wrapper__container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center ;
+  border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+.header__name{
+  font-family: 'Public Sans', sans-serif;
+  font-weight:100;
+  margin:50px;
+}
+
+.img__background{
+  background-color: rgba(0, 0, 0, 0.09);
+  height:400px;
+  width:300px;
+}
+
+.about__me{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 100;
+  width:50%;
+  margin-top:50px;
+  margin-bottom:50px;
+  letter-spacing:1px;
+  line-height: 2;
+  text-align:center;
+}
+
+.skill-bar-container{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  line-height: 5;
+
+}
+
+.header__skills{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 100;
+  margin-left:20%;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.skills_html{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 100;
+}

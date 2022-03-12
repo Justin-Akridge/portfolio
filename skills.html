@@ -7,7 +7,7 @@
   <title>Skills</title>
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="style.css">
-  <script src="app.js"></script>
+  
 </head>
 <body>
   <nav class="nav">
@@ -61,7 +61,7 @@
             <stop offset="100%" stop-color="#673ab7" />
           </linearGradient>
         </defs>
-        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        <circle class="comm" cx="80" cy="80" r="70" stroke-linecap="round" />
         </svg>
       </div>
     </div>
@@ -70,7 +70,7 @@
       <div class="skills">
         <div class="outer">
           <div class="inner">
-            <div id="number">
+            <div id="number__id">
               65%
             </div>
           </div>
@@ -82,7 +82,7 @@
               <stop offset="100%" stop-color="#673ab7" />
             </linearGradient>
           </defs>
-          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+          <circle class="work" cx="80" cy="80" r="70" stroke-linecap="round" />
         </svg>
       </div>
     </div>
@@ -94,7 +94,7 @@
         <div class="skills">
           <div class="outer">
             <div class="inner">
-              <div id="number">
+              <div id="numbers">
                 65%
               </div>
             </div>
@@ -106,7 +106,7 @@
                 <stop offset="100%" stop-color="#673ab7" />
               </linearGradient>
             </defs>
-            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            <circle class="depend" cx="80" cy="80" r="70" stroke-linecap="round" />
           </svg>
         </div>
       </div>
@@ -115,7 +115,7 @@
           <div class="skills">
             <div class="outer">
               <div class="inner">
-                <div id="number">
+                <div id="numberid">
                   65%
                 </div>
               </div>
@@ -127,29 +127,61 @@
                   <stop offset="100%" stop-color="#673ab7" />
                 </linearGradient>
               </defs>
-              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              <circle class="leader" cx="80" cy="80" r="70" stroke-linecap="round"/>
             </svg>
           </div>
       </div>
-  
-    </div>   
-  
-  <script>
-    let number = document.getElementById("number");
-    let counter = 0;
-    setInterval(() => {
-      if(counter ==65){
-        clearInterval();
-      }
-      else{
-        counter += 1;
-        number.innerHTML = counter + "%";
-      }
-    },30); 
-  </script>
+    </div>  
+    
+    <script>
+      let a = document.getElementById("number");
+      let counter = 0;
+      setInterval(() => {
+        if(counter == 65){
+          clearInterval();
+        }
+        else{
+          counter += 1;
+          a.innerHTML = counter + "%";
+        }
+      },30); 
 
+      let b = document.getElementById("number__id");
+      let c = 0;
+      setInterval(() => {
+        if(c == 65){
+          clearInterval();
+        }
+        else{
+          c += 1;
+          b.innerHTML = c + "%";
+        }
+      },30); 
 
+      let d = document.getElementById("numbers");
+      let counte = 0;
+      setInterval(() => {
+        if(counte== 65){
+          clearInterval();
+        }
+        else{
+          counte += 1;
+          d.innerHTML = counte + "%";
+        }
+      },30); 
 
+      let e = document.getElementById("numberid");
+      let count = 0;
+      setInterval(() => {
+        if(count == 65){
+          clearInterval();
+        }
+        else{
+          count += 1;
+          e.innerHTML = count + "%";
+        }
+      },30); 
+    </script>
 </body>
 </html>
 

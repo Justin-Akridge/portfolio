@@ -61,14 +61,28 @@
   font-weight: 600;
   color: #555;
 }
+#numbers{
+  font-weight: 600;
+  color: #555;
+}
 
-circle{
+#number__id{
+  font-weight: 600;
+  color: #555;
+}
+
+#numberid{
+  font-weight: 600;
+  color: #555;
+}
+
+circle.comm{
   fill: none;
   stroke:url(#GradientColor);
   stroke-width:20px;
   stroke-dasharray: 472;
   stroke-dashoffset: 472;
-  animation: anim 2s linear forwards;
+  animation: comm 2s linear forwards;
 }
 
 svg{
@@ -77,8 +91,53 @@ svg{
   left:0;
 }
 
-@keyframes anim{
+@keyframes comm{
   100%{
     stroke-dashoffset: 165;
+  }
+}
+
+circle.work{
+  fill: none;
+  stroke:url(#GradientColor);
+  stroke-width:20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: work 2s linear forwards;
+}
+
+@keyframes work{
+  100%{
+    stroke-dashoffset: 300;
+  }
+}
+
+circle.depend{
+  fill: none;
+  stroke:url(#GradientColor);
+  stroke-width:20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: depend 2s linear forwards;
+}
+
+@keyframes depend{
+  100%{
+    stroke-dashoffset: 300;
+  }
+}
+
+circle.leader{
+  fill: none;
+  stroke:url(#GradientColor);
+  stroke-width:20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: work 2s linear forwards;
+}
+
+@keyframes leader{
+  100%{
+    stroke-dashoffset: 300;
   }
 }

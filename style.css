@@ -3,21 +3,34 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
+  
 
 }
+.box{
+  /*background: #e3edf7;*/
+  text-align: center;
+  width:fit-content;
+  height:fit-content;
 
-body{
-  background: #e3edf7;
-  height:100vh;
+}
+.is__header{
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.wrapper__circle{
+  /*background: #e3edf7;*/
+  height:fit-content;
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:space-around;
+  margin:100px;
 }
 
 .skills{
   width:160px;
   height:160px;
-  /*background:cornflowerblue;*/
   position:relative;
 
 }
@@ -35,7 +48,7 @@ body{
   border-radius: 50%;
   display:flex;
   align-items:center;
-  justify-content: center;
+  justify-content: space-around;
   box-shadow: 
   inset 4px 4px 6px -1px rgba(0,0,0,0.2), 
   inset 4px 4px 6px -1px rgba(255,255,255,0.7), 
@@ -47,8 +60,8 @@ body{
 #number{
   font-weight: 600;
   color: #555;
-
 }
+
 circle{
   fill: none;
   stroke:url(#GradientColor);

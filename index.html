@@ -1,109 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JustinAkridge.com</title>
-  <link rel="stylesheet" href="app.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Justin Akridge, portfolio, Justin, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Justin's Portfolio. Full-Stack Web Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Justin Akridge</title>
 </head>
 <body>
-  <!--navbar section starts-->
-  <nav class="nav">
-    <h2 class="logo">Justin</h2>
-    <ul class= "nav_list">
-      <li><a href="#home" id="nav-link">Home</a></li>
-      <li><a href="#about" id="nav-link">About<a></li>
-      <li><a href="#projects" id="nav-link">Projects</a></li>
-      <li><a href="#contact" id="nav-link">Contact</a></li>
-    </ul>
-  </nav>
+<body>
 
-  <!-- hero section starts -->
-  <section id="home" class="home" id="home">
-    <div class="content-wrapper">
-      <div class="content">
-        <h2>Hi There,<br/> I'm <span>Justin</span></h2>
-        <p>I am into <span class="typing-text">Web Dev</span></p>
-        <a href="#about" class="btn"><span>About Me</span>
-          <i class="fas fa-arrow-circle-down"></i>
-        </a>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <h1 class="nav-title">Justin</h1>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm <span>Justin Akridge</span></h2>
+    <p>i am into <span class="typing-text">Web Development</span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/justin-akridge-21694722b/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/Justin-Akridge" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/j_aakridge" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/justinakridge/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+        </ul>
       </div>
-      <div>
-        <video class="avatar" width="600" height="400">
-          <source src="Me.mp4" type="video/mp4">
-        </video>
-      </div>
-      <!--
-        <div class="socials">
-          <ul class="social-icons">
-            <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jigar-sable/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-            <li><a class="github" aria-label="GitHub" href="https://github.com/jigar-sable" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-            <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li>
-            <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      -->
     </div>
-  </section>
-  
-    <section class="about" id="about">
-      <div class="about-wrapper">
-        <div class="aboutme">
-          <img class="tilt" src="me.jpg" alt="me">
-        </div>
-        <div class="about-container">
-          <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-            <div class="content">
-              <h3 class="header-tag">I'm Justin</h3>
-              <span class="tag">Web Developer</span>
-              <p class="about-text">I am a web developer in Indianapolis, Indiana
-                I am an computer science Major from Western Govenors University.
-                I am very passionate about improving my coding skills & developing applications & websites.
-                I build WebApps and Websites using MERN Stack.
-                Working for myself to improve my skills. </p>
-            </div>    
-            <div class="box-container">
-                <div class="box">
-                  <p><span> Phone : </span> (317)672-8926</p>
-                </div>
-                <div class="box">
-                  <p><span> Email : </span> Akridjus@gmail.com</p>
-                  <p><span> Place : </span> Indianapolis, Indiana</p>
-                </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="IMG_3683.jpg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Justin</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>I am a Full-Stack developer based in Indianapolis, Indiana. 
+          I am an Computer Science undergraduate from WGU.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working to improve my skills by building projects.</p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> phone : </span> (317)672-8926</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> Akridjus@gmail.com</p>
+              <p><span> place : </span> Indianapolis, Indiana</p>
             </div>
         </div>
-    </section>
+        
+        <div class="resumebtn">
+            <a href="Justin Akridge Resume.pdf" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
 
-    <!--Projects-->
-    <div id="projects" class="projects">
-      <div class="projects-container">
-        <h1 class="project-text">Projects</h1>
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> 
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="WGU.jpg" alt="Western Govenors University">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>Wesstern Governors University | WGU</p>
+        <h4>2022-2024 | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="Ivytechwebsite.jpg" alt="Ivy Tech Community College">
+      </div>
+      <div class="content">
+      <h3>Associates of Science in Computer Science</h3>
+      <p>Ivy Tech Community College</p>
+      <h4>2021-2022 | Completed</h4>
       </div>
     </div>
-    <!-- about section ends -->
-    <section id="contact" class="contact">
-      <div class="contact-container">
-        <h1 class="contact-text">Contact me</h1>
-      </div>
-      <div class="wrapper-container"> 
-        <a href="https://www.linkedin.com/in/justin-akridge-21694722b">
-        <img class="linkend-icon" src="data:image/png;base64,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"></a>
-        <a href="https://github.com/Justin-Akridge">
-        <img class="github-icon"src="data:image/png;base64,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"></a>
-        <a href="mailto:akridjus@gmail.com">
-        <img class="gmail-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSiVrqGXI1omws_ShdDHJ35RA_b63wk-k4pw&usqp=CAU"></a>
-        <a href="https://twitter.com/j_aakridge">
-        <img class="twitter-icon" src="data:image/png;base64,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"></a>
-      </div>
-    </section>
 
-<script src="app.js"></script>
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+     <div class="box tilt">
+      <img draggable="false" class="image" src="2021-02-19-16_16_49-MERN-Stack-Visualized-660x391.webp" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/Justin-Akridge" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+<!-- work section ends -->
+
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img class="contact"draggable="false" src="contact_us_4x.webp" alt="contactus">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Justin's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over social media. </p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>3176728926</p>
+          <p> <i class="fas fa-envelope"></i>akridjus@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Indianapolis,Indiana</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/justin-akridge-21694722b/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/Justin-Akridge" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:Akridjus@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/j_aakridge" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+        
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed by <a href="https://www.linkedin.com/in/jigar-sable"> Justin Akridge</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
 </body>
 </html>

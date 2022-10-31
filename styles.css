@@ -233,7 +233,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: 	#FF5F1F;
+  color: #00d9ff;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -243,7 +243,7 @@ header .navbar ul li a:hover {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #000;
   font-weight: 600;
   padding: 1rem 0;
 }

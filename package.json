@@ -1,0 +1,41 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "\"Portfolio Website\"",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justin-Akridge/portfolio.git"
+  },
+  "keywords": [
+    "\"portfolio",
+    "website",
+    "Justins",
+    "portfolio",
+    "\"Justin",
+    "Akridge",
+    "portfolio",
+    "Justin",
+    "full",
+    "stack",
+    "dev",
+    "personal",
+    "portfolio",
+    "lifecodes",
+    "portfolio",
+    "design",
+    "portfolio",
+    "website",
+    "personal",
+    "portfolio\""
+  ],
+  "author": "\"Justin Akridge\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justin-Akridge/portfolio/issues"
+  },
+  "homepage": "https://github.com/Justin-Akridge/portfolio#readme"
+}
